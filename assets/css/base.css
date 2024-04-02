@@ -20,25 +20,36 @@ ul{
     display: block;
     width: 25%;
 }
-
-div{
-    margin-left: 20%;
-    margin-right: 20%;
-    display: inline-block;
-}
-
-#img-gatos{
-    width: 20%;
-}
-#img-perros{
-    width: 20%;
-}
-
 .bookmarks{
    display: flex;
    justify-content: flex-end;
 }
-
 .link{
     margin-left: 10%;
 }
+.row{
+    display: inline-flex;
+}
+.photo{
+    width: 40%;
+}
+.description{
+    width: 60%;
+}
+.list-photo{
+    display: inline-flex;
+    margin-left: 20%;
+    
+    width: 40%;
+}
+.list-photo-principal{
+    display: inline-flex;
+    margin-left: 40%;
+    width: 40%;
+}
+.list-name{
+    display: inline-flex;
+    margin-top: 10%;
+    width: 60%;
+}
+
